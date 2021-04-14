@@ -38,7 +38,7 @@ Zarya Assistant — [Telegram](https://telegram.org) is the bot, based on the we
 
 - Display document ID in DB.
 - Display the data delivering speed from the meteostation to the DB.
-- Authorized access to the functionality (see 'Set up')
+- Authorized access to the functionality (see 'Set up').
 
 ## Demo
 
