@@ -3,7 +3,7 @@
 
 # Zarya Assistant
 
-Zarya Assistant — [Telegram](https://telegram.org)-is the bot, based on the well known library [Telegraf](https://telegraf.js.org). It's designed to work with [Zarya API](https://github.com/boboshko/zarya-api) and is the final user interface of the [ecosystem](#Zarya-ecosystem).
+Zarya Assistant — [Telegram](https://telegram.org) is the bot, based on the well known library [Telegraf](https://telegraf.js.org). It's designed to work with [Zarya API](https://github.com/boboshko/zarya-api) and is the final user interface of the [ecosystem](#Zarya-ecosystem).
 
 💫 Chasing [a dream](https://www.facebook.com/onlysemeon/posts/582696555261097).
 
@@ -72,8 +72,8 @@ Add necessary constants as environment variables. For instance:
 
 ```bash
 export zaryaToken="2023094023:KLJF34djfkl3j498SDKDJSLK2asdk2945"
-export cvWebhook="https://example.com/your/secret/paths/"
-export cvWebhookPath="/your/secret/paths/"
+export zaryaWebhook="https://example.com/your/secret/paths/"
+export zaryaWebhookPath="/your/secret/paths/"
 export zaryaWebhookUse=true
 export zaryaApiRequest="https://api.example.com/zarya/read/"
 export zaryaApiAuthorization="Basic TG9naW46UGFzc3dvcmQ="
