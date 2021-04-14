@@ -147,7 +147,7 @@ Zarya is the open source ecosystem to collect, store, aggregate and display envi
 
   Instead of Zarya Meteostation, any other meteostation mwith the same sensors may be used. For instance, based on [Arduino](https://www.arduino.cc). In that case, it's needed to create the firmware for your platform yourself.
 
-## Acknowledgemnts
+## Acknowledgements
 
 I want to express my thanks to the people who helped Zarya Assistant come into life:
 
