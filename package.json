@@ -1,0 +1,40 @@
+{
+  "name": "zarya-assistant",
+  "version": "0.1.0",
+  "description": "Weather bot",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js",
+    "start:dev": "nodemon start.js",
+    "lint": "eslint ./app",
+    "lint:fix": "eslint ./app --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boboshko/zarya-assistant.git"
+  },
+  "keywords": [],
+  "author": "Semeon Boboshko <semeonboboshko+github@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boboshko/zarya-assistant/issues"
+  },
+  "homepage": "https://github.com/boboshko/zarya-assistant#readme",
+  "dependencies": {
+    "date-fns": "^2.15.0",
+    "date-fns-tz": "^1.0.10",
+    "geo-tz": "^6.0.0",
+    "node-fetch": "^2.6.0",
+    "telegraf": "^3.38.0",
+    "telegraf-i18n": "^6.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-prettier": "^3.1.4",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5"
+  }
+}

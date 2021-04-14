@@ -1,0 +1,62 @@
+start: |
+  Hello, ${from.first_name}!
+
+  My name is Zarya. I'm your personal assistant. To get the access to all of my features, please amswer some of my questions.
+
+  Let's start.
+
+language:
+  choice: What language will we use to communicate?
+  confirmed: <b>English</b> is set.
+
+degrees:
+  fahrenheit: Degrees set <b>Fahrenheit</b>.
+  celsius: Degrees set <b>Celsius</b>.
+
+pressure:
+  inches: Set <b>in Hg</b>.
+  millimeters: Set <b>mm Hg</b>.
+  format:
+    inches: in Hg
+    millimeters: mm Hg
+
+time:
+  12hour: Set <b>12 hour</b> format.
+  24hour: Set <b>24 hour</b> format.
+
+settings:
+  confirmed: Settings applied.
+  degrees: What degrees shall I set for temperature?
+  pressure: What pressure format shall I set?
+  time: What time format shall I set?
+  timezone: |
+    Share your location. I will set your time zone.
+
+    Feature only supported in mobile version.
+
+lastDoc: |
+  • Temperature: <b>${temperature}</b>°
+  • Pressure: <b>${pressure}</b> ${pressureFormat}
+
+  Updated on <i>${date_count}</i>
+
+  Document: ${doc_id}
+  Timeout: ${delivery_speed} ms
+
+scenes:
+  master: Wanna know the weather?
+  settings: This is settings menu. Shall we change anything?
+
+access: You're not logged in.
+
+error: Sorry, I cam't process your message.
+
+buttons:
+  weather: Weather
+  settings: Settings
+  back: ← Back
+  language: Language
+  degrees: Degrees
+  pressure: Pressure
+  time: Time
+  timezone: Time zone
