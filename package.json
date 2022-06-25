@@ -24,7 +24,7 @@
     "date-fns": "^2.15.0",
     "date-fns-tz": "^1.0.10",
     "geo-tz": "^6.0.0",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^2.6.7",
     "telegraf": "^3.38.0",
     "telegraf-i18n": "^6.6.0"
   },
